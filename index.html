@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Social Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Offline Social Network</h1>
+        <div id="messages"></div>
+        <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+        <button onclick="sendMessage()">Send</button>
+        <input type="file" id="fileInput" onchange="uploadFile()" />
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
